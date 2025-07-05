@@ -1,5 +1,8 @@
+/* eslint-disable no-unused-vars */
+
 import { connectDB } from "../db/connectDB";
 import Product from "../models/product.model";
+
 
 export async function GET(request: Request){
     await connectDB();
