@@ -50,6 +50,7 @@ const SearchComponent = () => {
 const SearchPage = () => {
     
     return <Suspense fallback={"hello"}>
+          <SearchComponent />
         </Suspense>
 
 }
